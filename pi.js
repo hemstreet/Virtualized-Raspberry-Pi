@@ -6,9 +6,11 @@ class Pi {
     toggle(pin, value) {
         this.pi.toggle(pin, value);
     }
+
     high(pin) {
         this.pi.high(pin);
     }
+
     low(pin) {
         this.pi.low(pin);
     }
