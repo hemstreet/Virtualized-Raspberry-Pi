@@ -1,0 +1,11 @@
+{
+  "name": "virtual-pi",
+  "version": "1.0.0",
+  "author" : "Jon Hemstreet <jon@hemstreet.io>",
+  "description": "Virtualized Raspberry Pi",
+  "main": "pi.js",
+  "license": "ISC",
+  "dependencies": {
+    "pi-gpio": "0.0.8"
+  }
+}
