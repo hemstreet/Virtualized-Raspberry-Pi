@@ -4,8 +4,6 @@ Virtualized raspberry pi for local Raspberry Pi development
 
 ***Currently only toggles pins***
 
-`config/config.json` contains a property called virtualizedPi, set this t
-
 ```
 var Pi = require('../pi'),
     pi = new Pi({
@@ -18,7 +16,6 @@ Current supported methods are
 * ```high(pin)```
 * ```low(pin)```
 
-`pi.toggle(1,2)`
 TODO
 ====
 * Support entire pi-gpio library w/ interface
