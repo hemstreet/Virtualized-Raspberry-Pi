@@ -1,7 +1,6 @@
 class Pi {
-    constructor() {
-        this.config = require('./config/config');
-        this.pi = require((this.config.virtualizedPi) ? './lib/mock/pi' : './lib/pi');
+    constructor(options) {
+        this.pi = require((options.mock) ? './lib/mock/pi' : './lib/pi');
     }
 
     toggle(pin, value) {
@@ -16,5 +15,4 @@ class Pi {
 
 }
 
-let pi = new Pi();
-module.exports = pi;
+module.exports = Pi;
