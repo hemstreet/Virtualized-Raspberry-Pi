@@ -1,11 +1,11 @@
 Virtualized Raspberry Pi
 ========================
-Virtualized raspberry pi for local raspbery pi development
+Virtualized raspberry pi for local Raspberry Pi development
 
 ***Currently only toggles pins***
 
 Current supported methods are 
-* ```toggle(pin, value)```, 
+* ```toggle(pin, value)```
 * ```high(pin)```
 * ```low(pin)```
 
